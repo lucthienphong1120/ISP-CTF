@@ -4,7 +4,7 @@
     
 ### Firstlooking
 
-![miniCTF firstlook](/miniCTF2020/logo.png)
+![miniCTF firstlook](./miniCTF2020/logo.png)
 
 ### Overview
 
@@ -34,7 +34,7 @@
 
 #### Challenge 
 
-First you have to know about the world these days. Read [this book](/miniCTF2020/writeupfiles/history.txt):
+First you have to know about the world these days. Read [this book](./miniCTF2020/writeupfiles/history.txt):
 
 #### Solution
 
@@ -54,11 +54,11 @@ Ta là Lươn. Ta không đánh giá cao ngươi, tuy vậy ta vẫn sẽ cho ng
 
 Khi đọc thì ta có thể thấy là đề bài có các từ khóa ***Facebook***, ***page ISP***, nội dung minigame. Flag có thể sẽ liên quan đến một bài đăng nào đó về minigame trên [fanpage của ISP](https://www.facebook.com/ATTT.PTIT). Sau khi tìm kiếm thì mình phát hiện ra bài [Open miniCTF](https://www.facebook.com/ATTT.PTIT/posts/3425688750875051) là có liên quan nhất đến các dữ kiện mà ta đã tìm được, hãy cùng xem xét nó 1 chút.
 
-![FBpost](/miniCTF2020/writeupfiles/opengamepost.png)
+![FBpost](./miniCTF2020/writeupfiles/opengamepost.png)
 
 Có vẻ là chúng ta không thấy điều gì có vẻ khả nghi ở đây cả. Đọc thật kỹ đề bài, ta sẽ thấy đề bài liên tục nhắc đến ***thời gian***, ***flag***. Facebook có 1 tính năng cho phép ta có thể xem được lịch sử đã chỉnh sửa của 1 bài viết, có vẻ flag sẽ được giấu ở đó. Hãy cùng kiểm tra edit history của post này!
 
-![edit_history](/miniCTF2020/writeupfiles/edithistory.png)
+![edit_history](./miniCTF2020/writeupfiles/edithistory.png)
 
 Quả nhiên flag được cài vào đây
 
@@ -72,7 +72,7 @@ Ki3nM1ddL3 ta thật ra rất thích ra câu đố rồi nhìn bọn điêu dân
 
 Nếu ngươi được thừa hưởng một tí tẹo trí tuệ của ta ngươi sẽ biết máy tính hiểu được ngôn ngữ nào. Ta là một hắc cờ vì vậy ta sẽ luôn bắt đầu bằng nó!
 
-[file](/miniCTF2020/writeupfiles/bin.txt)
+[file](./miniCTF2020/writeupfiles/bin.txt)
 
 #### Solution
 
@@ -116,7 +116,7 @@ Phew. Flag: `ispclub{sUch_4_L0n9_w4y}`
 
 Hắc cờ Chick Chick đã bị bắt!!!! Nhưng nó đang nhảy múa??? Phải chăng đó là một loại mật mã???!
 
-[Dancing man](/miniCTF2020/writeupfiles/Dancing_man_cipher.png)
+[Dancing man](./miniCTF2020/writeupfiles/Dancing_man_cipher.png)
 
 #### Solution
 
@@ -168,7 +168,7 @@ Flag: `ISPCLUB{YUMMYYUMMY}`
 
 H3nlor đang thực hiện ma pháp tối thượng nhằm tước đoạt trí thông minh của các flag hunter. Nhưng vì đây là 1 cấm thuật cổ xưa nên hắn cần 6 ngày để có thể thực hiện được, trong thời gian đó hãy giải mã bí ẩn của phép thuật này và ngăn chặn H3nlor trước khi quá muộn!
 
-File: [magic_circle](/miniCTF2020/writeupfiles/Magic_circle.png) [spell](/miniCTF2020/writeupfiles/SPELL.png)
+File: [magic_circle](./miniCTF2020/writeupfiles/Magic_circle.png) [spell](./miniCTF2020/writeupfiles/SPELL.png)
 
 #### Solution
 
@@ -176,7 +176,7 @@ Nếu như nhận thấy được rằng hình vẽ này được vẽ 1
 Trong mỗi các ô tròn nhỏ đều chứa 3 ký tự và riêng ô cuối cùng chứa 2 ký tự (do trong bảng chữ cái tiếng anh chỉ có 26 ký tự) và trên SPELL.png cũng có rất nhiều các gạch ngang, dọc và chéo. Điểm chung của chúng là đều có 3 gạch và chỉ duy nhất có 1 ký tự là có 2 gạch, đối chiếu lên hình tròn lớn, dễ thấy sự liên hệ của 2 hình này với nhau, gạch dài hơn sẽ biểu diễn cho cả vị trí của ô và ký tự mà hình đó đang biểu diễn, từ đó suy ra được toàn bộ bảng chữ cái và dễ dàng decode, có được flag.
 Bảng chữ cái:
 
-![CharacterSystem](/miniCTF2020/writeupfiles/SOLVE-EZ.png)
+![CharacterSystem](./miniCTF2020/writeupfiles/SOLVE-EZ.png)
 
 Flag: `ISPCLUB{THEBESTWIZARD}`
 
@@ -185,7 +185,7 @@ Flag: `ISPCLUB{THEBESTWIZARD}`
 #### Challenge
 
 Gần đây H3nl0r bắt đầu thích thú nghiên cứu đống ma thuật vô dụng và bắt đầu làm mất flag của ta. Thật tức giận. Nhưng không sao, ta đã có biện pháp bảo vệ chúng.
-[file](/miniCTF2020/writeupfiles/sthcrypty.png)
+[file](./miniCTF2020/writeupfiles/sthcrypty.png)
 
 #### Solution
 
@@ -194,7 +194,7 @@ Sau khi tải file sthcrypty.png và mở lên ta thấy ngay nó được 
 Submit thử với form ISPCLUB{ANSWER} thì cho ra kết quả là *incorrect*. Chú ý đến categoty của bài, [Forbidden Magic](#Crypto-222:-Forbidden-Magic) là **Crypto** và [No magic here](#FOR-100:-No-magic-here) là **Forensic**. Hãy dùng cách làm của Forensic để xử lý bài này.
 
 Việc đầu tiên khi có một file .png hẳn là xem hex xem file này liệu có ẩn giấu gì không. Sử dụng tool **HxD** để xem và ở ngay cuối file ta thấy flag.
-![hex](/miniCTF2020/writeupfiles/hexpng.png)
+![hex](./miniCTF2020/writeupfiles/hexpng.png)
 
 Flag: `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}`
 
@@ -210,7 +210,7 @@ Hắc cờ Chick Chick khiêu khích các người bằng một mã QR. Tưởng
 
 Khi bấm vào ta sẽ được forward tới trang download mega chứa 1 ảnh QR .png
 
-![QR1](/miniCTF2020/writeupfiles/qrchickchick1.png)
+![QR1](./miniCTF2020/writeupfiles/qrchickchick1.png)
 
 Để quét QR, chúng ta có thể dùng smartphone, hoặc dùng các trang web online. Mình đã decode QR này với website [zxing](https://zxing.org/w/decode.jspx).
 
@@ -218,7 +218,7 @@ Giải mã QR này ra một link mega nữa.
 
 Lặp lại như thế vài lần (5 lần) thì đã nhận được flag:
 
-![QRflag](/miniCTF2020/writeupfiles/qrflag.png)
+![QRflag](./miniCTF2020/writeupfiles/qrflag.png)
 
 Flag: `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}`
 
@@ -228,7 +228,7 @@ Flag: `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}`
 
 Hôm nay tên ChickChick lại quỵt tiền ăn xiên bẩn của ta. Khi ta đến đòi nợ, hắn vội vã trốn đi và để rơi một mảnh flag. Nó ở đâu đó trong này, hãy nhân cơ hội này chiếm lấy nó, ta muốn thấy ChickChick bị phạt lắm rồi!
 
-[file .rar](/miniCTF2020/writeupfiles/map.rar)
+[file .rar](./miniCTF2020/writeupfiles/map.rar)
 
 #### Solution
 
@@ -240,11 +240,11 @@ Bài này khi giải nén tệp map.rar ta được một list các folder 
 
 - `findstr` đối với Windows: 
 
-![cmdmap](/miniCTF2020/writeupfiles/cmdmap.png)
+![cmdmap](./miniCTF2020/writeupfiles/cmdmap.png)
 
 - `grep` đối với Linux:
 
-![termap](/miniCTF2020/writeupfiles/terminalmap.png)
+![termap](./miniCTF2020/writeupfiles/terminalmap.png)
 
 Flag: ispclub{n4hhh_1_g0t_c4tch3D}
 
@@ -254,12 +254,12 @@ Flag: ispclub{n4hhh_1_g0t_c4tch3D}
 
 Hừ. Flag của ta đang mất dần và người yêu ta đang không vui lắm. Lần này ta đã giấu khá kỹ, ngươi sẽ không tìm được đâu.
 
-[Challenge](/miniCTF2020/writeupfiles/chall.txt)
+[Challenge](./miniCTF2020/writeupfiles/chall.txt)
 
 #### Solution
 Chúng ta có thể thấy đề bài đã cho chúng ta 1 file chall.txt và ở trong có 1 đường link drive. Khi truy cập vào ta được dẫn đến 1 thư mục chứa 1 tệp tên là **chall.zip** và 1 tệp **pass.txt**. Sau khi mình tải cả 2 file về và giải nén **chall.zip** thì thấy file yêu cầu có mật khẩu để giải nén và nó nằm trong file **pass.txt**. Sau khi nhập pass mình đã giải nén được thành công, bên trong tệp zip lại có thêm 2 file nữa:
 
-![liar](/miniCTF2020/writeupfiles/fakeflag.png)
+![liar](./miniCTF2020/writeupfiles/fakeflag.png)
 
 Mình đã ngay lập tức mở file flag-in-here và đây là những gì mình nhận được:
 
@@ -267,7 +267,7 @@ Mình đã ngay lập tức mở file flag-in-here và đây là những
 https://drive.google.com/drive/folders/1I2HcFsJzj9BUG0tp8NkRR6JMFpq-NGGZ?usp=sharing
 ```
 
-[Alalalala.zip](/miniCTF2020\writeupfiles\Alalalala.zip)
+[Alalalala.zip](./miniCTF2020\writeupfiles\Alalalala.zip)
 
 Và đời không như là mơ :v
 
@@ -282,7 +282,7 @@ I think u should search gg for "filename extension"
 
 Mình đã thử làm theo hint đầu tiên và giải nén file nhưng **chall2** lại yêu cầu pass để có thể mở khóa, mình đã thử lại pass đầu tiên nhưng có vẻ là không được. Thử đến ý tiếp theo của hint nào. Không cho giải nén thì ta cứ mở:
 
-![chall2](/miniCTF2020/writeupfiles/chall2.png)
+![chall2](./miniCTF2020/writeupfiles/chall2.png)
 
 Cái ảnh kia mình đã thử mở và không được, nên mình đã thử mở file zip và thật bất ngờ khi nó không cần pass để mở.
 
@@ -301,7 +301,7 @@ Okay, ngay dòng đầu tiên ta đã có được password giải nén nhưng m
 
 Đã giải nén thành công và nhận được bức ảnh:
 
-![I_DO_NOT_HIDE_ANYTHING](/miniCTF2020/writeupfiles/I_DO_NOT_HIDE_ANYTHING.jpeg)
+![I_DO_NOT_HIDE_ANYTHING](./miniCTF2020/writeupfiles/I_DO_NOT_HIDE_ANYTHING.jpeg)
 
 Okay got stuck again. Quay lại nghiền ngẫm file **hint.txt** tiếp và nhận ra có điều gì đó về *file extension*.
 
@@ -309,15 +309,15 @@ Quăng vào xem hex và ta nhận ra nó là một file .zip. Đổi định d�
 
 Sau khi decode ta có pass: `1_H1D3D_S0M3TH1N9`.
 
-[File extract](/miniCTF2020/writeupfiles/file-ext.png)
+[File extract](./miniCTF2020/writeupfiles/file-ext.png)
 
 Và sau khi giải nén thành công ta có được thư mục **secrets** gồm rất nhiều ảnh gái xinh :3
 
-[secrets](/miniCTF2020/writeupfiles/secrets.png)
+[secrets](./miniCTF2020/writeupfiles/secrets.png)
 
 "tận hưởng" toàn bộ ablum này xong :)) thì ở thư mục cuối ta có được flag:
 
-![challflag](/miniCTF2020/writeupfiles/ISPCLUB.png)
+![challflag](./miniCTF2020/writeupfiles/ISPCLUB.png)
 
 Flag: `ispclub{welcome_and_have_fun}`
 
@@ -327,7 +327,7 @@ Flag: `ispclub{welcome_and_have_fun}`
 
 Là một thủ lĩnh của tổ chức toàn cầu như ta, tất nhiên ta có thói quen đọc sách để bồi dưỡng tri thức. Ngươi nên học tập ta đi.
 
-[BOOK](/miniCTF2020/writeupfiles/book.png)
+[BOOK](./miniCTF2020/writeupfiles/book.png)
 
 #### Solution
 
@@ -337,7 +337,7 @@ OKAY :| bị lừa rồi. Có vẻ như đây là 1 đường link nhưng mà đ
 
 Thay 728 vào W, 90 vào H ta nhận được đường link mới `https://bit.ly/book_72890` và nhận được một quyển sách .pdf.
 
-[book72890](/miniCTF2020/writeupfiles/book72890.png)
+[book72890](./miniCTF2020/writeupfiles/book72890.png)
 
 Sau khi lật được vài trang thì có vẻ đây là một quyển sách bình thường trừ số trang không theo quy luật.
 
@@ -357,7 +357,7 @@ Flag: `ispclub{d0K_s@cK_d3_9141_tR1}`
 
 Trong quá trình hiện thực hoá giấc mơ trở thành hacker thành đạt kiêm bố đường, H3nl0r gặp vấn đề với việc tốt nghiệp cấp 3 khi gặp phải kẻ thù không đội trời chung là môn tin học 11. Hãy tìm hiểu xem H3nl0r có đạt được mơ ước của mình không, hay mãi vẫn không được lên lớp và phải ở nhà ăn bám!
 
-[boduong.pas](/miniCTF2020/writeupfiles/boduong.pas)
+[boduong.pas](./miniCTF2020/writeupfiles/boduong.pas)
 
 #### Solution
 
@@ -365,15 +365,15 @@ Trong quá trình hiện thực hoá giấc mơ trở thành hacker thành đạ
 
 Phần khai báo biến:
 
-![var](/miniCTF2020/writeupfiles/var.png)
+![var](./miniCTF2020/writeupfiles/var.png)
 
 Phần hàm con:
 
-![func](/miniCTF2020/writeupfiles/func.png)
+![func](./miniCTF2020/writeupfiles/func.png)
 
 Và phần hàm main:
 
-![main](/miniCTF2020/writeupfiles/main.png)
+![main](./miniCTF2020/writeupfiles/main.png)
 
 Ở phần khai báo biến ta thấy có 1 biến "name" kiểu string, 1 biến "daddy" kiểu string có giá trị là 'ISP' và 1 biến "flag" kiểu string có giá trị là ```hrqbmtczqsnfs`llhofC`rhb|```
 
@@ -383,7 +383,7 @@ Và phần hàm main:
 
 Vậy thì dễ rồi, chỉ cần chạy rồi nhập input = 'ISP' là có thể ra được flag.
 
-![pasrun](/miniCTF2020/writeupfiles/pasrun.png)
+![pasrun](./miniCTF2020/writeupfiles/pasrun.png)
 
 Flag: `ispclub{programmingBasic}`
 
@@ -393,7 +393,7 @@ Flag: `ispclub{programmingBasic}`
 
 Ki3nM1ddL3 mới tập lập trình Python và hắn nhận ra Python cũng có vài điểm chung với Pascal. Xem xem ai học Python nhanh hơn nhé.
 
-[c0d3.py](/miniCTF2020/writeupfiles/c0d3.py)
+[c0d3.py](./miniCTF2020/writeupfiles/c0d3.py)
 
 #### Solution
 
@@ -415,7 +415,7 @@ Bài này không có file đính kèm và dữ kiện duy nhất của t
 
 Sau 1 hồi mình đã tìm thấy nó ngay trong trang About Us:
 
-![About Us](/miniCTF2020/writeupfiles/aboutus.png)
+![About Us](./miniCTF2020/writeupfiles/aboutus.png)
 
 Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 
@@ -423,7 +423,7 @@ Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 
 #### Challenge
 
-Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì bỗng nhiên bị mất mạng. [Web](https://minictf-web02.herokuapp.com/) [Source](/miniCTF2020/writeupfiles/Menhera.zip)
+Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì bỗng nhiên bị mất mạng. [Web](https://minictf-web02.herokuapp.com/) [Source](./miniCTF2020/writeupfiles/Menhera.zip)
 
 #### Solution
 
@@ -477,7 +477,7 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3 
 
 [Web](http://minictf.hypnguyen.us/2048.html)
-[deploy](/miniCTF2020/writeupfiles/2048deploy.zip) & [source](/miniCTF2020/writeupfiles/2048source.zip)
+[deploy](./miniCTF2020/writeupfiles/2048deploy.zip) & [source](./miniCTF2020/writeupfiles/2048source.zip)
 
 #### Solution
 
@@ -485,11 +485,11 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 
 Game chơi thì rất vui nhưng để đạt đến con số kia thì không thể trong vòng ít nhất là vài ngày được. Vậy nên mình đã đi check thử xem có gì hay ho hay không và mình đã tìm ra, web này lưu Score trong mục local storage và có thể được chỉnh sửa:
 
-![bestscore](/miniCTF2020/writeupfiles/bestscore.png)
+![bestscore](./miniCTF2020/writeupfiles/bestscore.png)
 
 Sau khi sửa bestScore thành 30102020 thì trên web đã xuất hiện flag:
 
-![2048flag](/miniCTF2020/writeupfiles/2048flag.png)
+![2048flag](./miniCTF2020/writeupfiles/2048flag.png)
 
 Flag: `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}`
 
@@ -499,7 +499,7 @@ Flag: `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}`
 
 Nếu biết về ma pháp JS thì ta đã không phải cuộn sushi rồi 
 
-[Scroll](http://minictf.hypnguyen.us/scroll.html) [Source](/miniCTF2020/writeupfiles/Scroll.zip)
+[Scroll](http://minictf.hypnguyen.us/scroll.html) [Source](./miniCTF2020/writeupfiles/Scroll.zip)
 
 #### Solution
 
@@ -511,7 +511,7 @@ Hint: cuộn xuống tiếp đi
 
 Nhưng hint đó không có tác dụng gì cả. Vậy nên mình đã F12 để check source code của trang và phát hiện ra 1 hint khác:
 
-![Scrollhint](/miniCTF2020/writeupfiles/Scrollhint.png)
+![Scrollhint](./miniCTF2020/writeupfiles/Scrollhint.png)
 
 Đường link background của trang web có gì đó khả nghi? 
 
