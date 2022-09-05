@@ -1,0 +1,9 @@
+Tổ chức áo đen ISP đã xâm chiếm thế giới. Tên thủ lĩnh Ki3nM1ddL3 rất hợm hĩnh, hắn nghĩ rằng không ai có thể đấu lại hắn. Hắn tuyên bố hắn sẽ phát tán các mảnh kho báu của hắn ở khắp nơi trên thế giới và thách thức đám điêu dân. Kho báu của hắn rất giá trị vì vậy có rất nhiều người thèm muốn chúng. Biết được điều đó, Lươn, một tên nội gián bên trong tổ chức đã phát tán các tình báo ra bên ngoài hòng đánh sập nguồn tài chính của tổ chức. Lươn sẽ cho bạn các manh mối cần thiết để đối đầu với tổ chức này và lấy được kho báu. Mỗi mảnh kho báu chỉ có thể được mở khi bạn có được flag. Càng có nhiều flag bạn càng có nhiều kho báu. Tuy rằng mới chỉ là các hacker tập sự, hãy cho Ki3nM1ddL3 biết thế nào là lễ độ!
+
+[Một số tình báo]
+H3nlord là cận thần của Ki3nM1ddL3 trong tổ chức nhưng thích sự nổi loạn. Hắn điên điên khùng khùng vì vậy nhiều lúc hắn sơ hở làm lộ ra các manh mối về flag.
+ChickChick là thủ quỹ của KienMiddle, hắn biết mọi flag của Ki3nM1ddL3. Tên thủ quỹ này rất sùng bái thủ lĩnh của hắn. Tuy thế, ChickChick là một tên hắc cờ cũng hợm hĩnh không kém thủ lĩnh của hắn, vậy nên hắn tin rằng không ai có thể giải mã dù cho hắn cho tất cả mọi người xem flag.
+
+NOTE: Có rất nhiều hắc cờ khác cũng đang lăm le kho báu. Hãy nhanh chân bởi tuy tên đầu sỏ đã xâm chiếm thế giới, hắn đã có người yêu vì vậy kho báu của hắn là có hạn!
+
+Lươn đã chuẩn bị một flag nho nhỏ để các hắc cờ cùng tham gia phá hủy tổ chức. Hãy dùng nó làm vũ khí để chiến đấu: ispclub{ISP_ru1n_th3_w0rLd}
