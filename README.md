@@ -4,3 +4,4 @@
 
 [miniCTF 2020](./miniCTF2020/README.md)
 
+[trainingCTF 2020](./TrainingCTF2020//README.md)
