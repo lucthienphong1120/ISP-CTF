@@ -327,7 +327,7 @@ Flag: `ispclub{welcome_and_have_fun}`
 
 Là một thủ lĩnh của tổ chức toàn cầu như ta, tất nhiên ta có thói quen đọc sách để bồi dưỡng tri thức. Ngươi nên học tập ta đi.
 
-[BOOK](/miniCTF2020/book.png)
+[BOOK](/miniCTF2020/writeupfiles/book.png)
 
 #### Solution
 
@@ -335,13 +335,15 @@ Là một thủ lĩnh của tổ chức toàn cầu như ta, tất nhiên ta có
 
 OKAY :| bị lừa rồi. Có vẻ như đây là 1 đường link nhưng mà đã bị thay đổi gì đó và thứ đáng nghi nhất là phần WH, chỉ có thể là Width và Height của 1 bức ảnh, sau đó mình đã kiểm tra thông số của bức ảnh (chuột phải -> Properties -> Detail), nhìn thấy *Dimensions* của ảnh là `728x90`.
 
-Thay 728 vào W, 90 vào H ta nhận được [đường link mới](bit.ly/book_72890) và nhận được một quyển sách .pdf.
+Thay 728 vào W, 90 vào H ta nhận được đường link mới `https://bit.ly/book_72890` và nhận được một quyển sách .pdf.
+
+[book72890](/miniCTF2020/writeupfiles/book72890.png)
 
 Sau khi lật được vài trang thì có vẻ đây là một quyển sách bình thường trừ số trang không theo quy luật.
 
 Liệt kê chuỗi số trang ra thì ta có một chuỗi trông có vẻ là có những ký tự chữ cái trong cả hệ decimal, octal theo thứ tự so le:
 
-```sh
+```
 105 163 112 143 108 165 98 173 100 60 75 137 115 100 99 113 95 144 51 137 57 61 52 61 95 164 82 61 125
 ```
 
@@ -355,7 +357,7 @@ Flag: `ispclub{d0K_s@cK_d3_9141_tR1}`
 
 Trong quá trình hiện thực hoá giấc mơ trở thành hacker thành đạt kiêm bố đường, H3nl0r gặp vấn đề với việc tốt nghiệp cấp 3 khi gặp phải kẻ thù không đội trời chung là môn tin học 11. Hãy tìm hiểu xem H3nl0r có đạt được mơ ước của mình không, hay mãi vẫn không được lên lớp và phải ở nhà ăn bám!
 
-[file](/miniCTF2020/writeupfiles/boduong.pas)
+[boduong.pas](/miniCTF2020/writeupfiles/boduong.pas)
 
 #### Solution
 
@@ -373,10 +375,13 @@ Và phần hàm main:
 
 ![main](/miniCTF2020/writeupfiles/main.png)
 
-Ở phần khai báo biến ta thấy có 1 biến “name” kiểu string, 1 biến “daddy” kiểu string có giá trị là ‘ISP’ và 1 biến “flag” kiểu string có giá trị là `'hrqbmtczqsnfs`llhofC`rhb|'`. 
-Ở phần chương trình con ta có thể thấy đó là hàm này dùng để xử lý flag đã được khai báo ở trên kia thành flag mà chúng ta có thể submit được.  
-Đọc trong main thì ta thấy có câu lệnh so sánh, nếu như input của người dùng nhập vào bằng với giá trị của biến daddy thì sẽ gọi hàm con printFlag.  
-Vậy thì dễ rồi, chỉ cần chạy rồi nhập input = ‘ISP’ là có thể ra được flag.
+Ở phần khai báo biến ta thấy có 1 biến "name" kiểu string, 1 biến "daddy" kiểu string có giá trị là 'ISP' và 1 biến "flag" kiểu string có giá trị là ```hrqbmtczqsnfs`llhofC`rhb|```
+
+Ở phần chương trình con ta có thể thấy đó là hàm này dùng để xử lý flag đã được khai báo ở trên kia thành flag mà chúng ta có thể submit được.
+
+Đọc trong main thì ta thấy có câu lệnh so sánh, nếu như input của người dùng nhập vào bằng với giá trị của biến daddy thì sẽ gọi hàm con printFlag.
+
+Vậy thì dễ rồi, chỉ cần chạy rồi nhập input = 'ISP' là có thể ra được flag.
 
 ![pasrun](/miniCTF2020/writeupfiles/pasrun.png)
 
@@ -386,14 +391,16 @@ Flag: `ispclub{programmingBasic}`
 
 #### Challenge
 
-Programming
+Ki3nM1ddL3 mới tập lập trình Python và hắn nhận ra Python cũng có vài điểm chung với Pascal. Xem xem ai học Python nhanh hơn nhé.
 
-Ki3nM1ddL3 mới tập lập trình Python và hắn nhận ra Python cũng có vài điểm chung với Pascal. Xem xem ai học Python nhanh hơn nhé.<br>
 [c0d3.py](/miniCTF2020/writeupfiles/c0d3.py)
 
 #### Solution
 
-Bài này chỉ đơn giản là các ký tự trong flag đã được cộng thêm 160 và mình đã có chuỗi sau khi các ký tự được cộng với 160. Chỉ cần thực hiện lấy giá trị mỗi ký tự trừ đi 160 rồi in ra là ta sẽ có được flag rồi.
+Bài này chỉ đơn giản là các ký tự trong flag đã được cộng thêm 160 và mình đã có chuỗi sau khi các ký tự được cộng với 160. 
+
+Chỉ cần thực hiện lấy giá trị mỗi ký tự trừ đi 160 rồi in ra là ta sẽ có được flag rồi.
+
 Flag: `ispclub{3asy_r1ght?}`
 
 # Web 100: Become Powerful
@@ -405,9 +412,10 @@ Gần đây tên đầu sỏ lại âm mưu truyền bá giáo phái của hắn
 #### Solution
 
 Bài này không có file đính kèm và dữ kiện duy nhất của ta là phần cốt truyện kia. Có thể thấy là cốt truyện đã đề cập đến việc Lươn đã nhét flag vào trang web này. Thử f12 xem source code xem sao!
+
 Sau 1 hồi mình đã tìm thấy nó ngay trong trang About Us:
 
-![about](/miniCTF2020/writeupfiles/aboutus.png)
+![About Us](/miniCTF2020/writeupfiles/aboutus.png)
 
 Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 
@@ -415,13 +423,13 @@ Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 
 #### Challenge
 
-Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì bỗng nhiên bị mất mạng. [Web](https://minictf-web02.herokuapp.com/)
-[Source](/miniCTF2020/writeupfiles/) & [deploy](/miniCTF2020/writeupfiles/).
-
+Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì bỗng nhiên bị mất mạng. [Web](https://minictf-web02.herokuapp.com/) [Source](/miniCTF2020/writeupfiles/Menhera.zip)
 
 #### Solution
 
-Click vào đường link sẽ dẫn ta đến 1 web chal, web này yêu cầu chúng ta tắt bật mạng 10 lần để ra flag. Thật may người ra đề là 1 người biết nghĩ cho thí sinh khi chỉ cần bật tắt 10 lần. Nhưng không, đó là 1 cách làm thật sự rất thiếu tinh tế, vậy nên mình đã quyết định check source code của trang web này và phát hiện ra 1 file *script.js* có đoạn code rất khả nghi:
+Click vào đường link sẽ dẫn ta đến 1 web challenge, web này yêu cầu chúng ta tắt bật mạng 10 lần để ra flag.
+
+Thật may người ra đề là 1 người biết nghĩ cho thí sinh khi chỉ cần bật tắt 10 lần. Nhưng không, đó là 1 cách làm thật sự rất thiếu tinh tế, vậy nên mình đã quyết định check source code của trang web này và phát hiện ra 1 file *script.js* có đoạn code rất khả nghi:
 
 ```js
 wordRunner(speech);
@@ -443,11 +451,14 @@ wordRunner(speech);
 ```
 
 Đọc hiểu thì đúng là sau khi chúng ta tắt bật mạng 10 lần `(if ($$ === 10))` thì web sẽ in ra flag cho chúng ta, nhưng để ý phần khai báo `let $$$` có thể nhận định được đây là 1 đoạn base64 đã bị đảo sau đó cắt ra, do ở dưới chúng ta có câu lệnh khai báo flag
-`let flag = _.__($$$.join('').split('').reverse().join(''))`
+
+```js
+let flag = _.__($$$.join('').split('').reverse().join(''))
+```
 
 Vậy là chỉ cần ghép những cụm từ trong `$$$` sau đó đảo lại và decode từ base64 về ascii là được, mình đã viết 1 script nhỏ bằng python3 để solve đoạn này:
 
-```js
+```py
 import base64
 a = ['==QfzMzM881XxETMl9', '1XtNzXxQ2Xfhmbh91XhV3Yf9VawQ', '2XflGM291XzY3eiVHbjB3cpBiO5B', '6wuBSZn5WZsxWYoNGIhd6uhPGI', 'nFGbmByZu95uhDrxoRHIudqu', 'hjGcgA6wsBSeiOMkEDiLsOsc0', 'BibqOcarBSadub4wa8ZuBCoDzGI01quhjGdg4Wo6GuQ']
 b = ""
@@ -466,7 +477,7 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3 
 
 [Web](http://minictf.hypnguyen.us/2048.html)
-[deploy](/miniCTF2020/writeupfiles/2048deploy.rar) & [source](/miniCTF2020/writeupfiles/2048source.rar)
+[deploy](/miniCTF2020/writeupfiles/2048deploy.zip) & [source](/miniCTF2020/writeupfiles/2048source.zip)
 
 #### Solution
 
@@ -474,7 +485,7 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 
 Game chơi thì rất vui nhưng để đạt đến con số kia thì không thể trong vòng ít nhất là vài ngày được. Vậy nên mình đã đi check thử xem có gì hay ho hay không và mình đã tìm ra, web này lưu Score trong mục local storage và có thể được chỉnh sửa:
 
-![LocalStorage](/miniCTF2020/writeupfiles/localstorage.png)
+![bestscore](/miniCTF2020/writeupfiles/bestscore.png)
 
 Sau khi sửa bestScore thành 30102020 thì trên web đã xuất hiện flag:
 
@@ -488,7 +499,7 @@ Flag: `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}`
 
 Nếu biết về ma pháp JS thì ta đã không phải cuộn sushi rồi 
 
-[Scroll] (/miniCTF2020/writeupfiles/Scroll.zip)
+[Scroll](http://minictf.hypnguyen.us/scroll.html) [Source](/miniCTF2020/writeupfiles/Scroll.zip)
 
 #### Solution
 
@@ -511,7 +522,7 @@ body {
 }
 ```
 
-Thử [mở riêng](http://minictf.hypnguyen.us/image.php?w=1&h=1) nó ra và thử thay đổi giá trị w và h trở thành [thế này](http://minictf.hypnguyen.us/image.php?w=1000&h=500) và ta có được flag.
+Thử [đổi queries](http://minictf.hypnguyen.us/image.php?w=1&h=1) nó ra và thử thay đổi giá trị w và h trở thành [thế này](http://minictf.hypnguyen.us/image.php?w=1000&h=500) và ta có được flag.
 
 Flag: `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}`
 
@@ -525,5 +536,5 @@ https://minictf-web05.herokuapp.com/
 
 #### Solution
 
-Đối với chall này tụi mình xin phép trích `Wu của bạn Vũ Hoàng Anh` - người được giải Tiềm năng mùa miniCTF 2020 :3
+Đối với chall này tụi mình xin phép trích [Wu của bạn Vũ Hoàng Anh](https://docs.google.com/document/d/1J2Iud4we_6G4mtstl9gTcKsXdQfwV10-8A5rcEhjpw4/) - người được giải Tiềm năng mùa miniCTF 2020 :3
 
