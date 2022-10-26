@@ -519,8 +519,13 @@ Thu được chuỗi sau khi decode:
 ```
 U2FsdGVkX1+679ljS4CKLISBf5u5PEFxVgp8vTfEpEboZ2BwOpakh4yrgkwv86HAPO8bAFoS+v1ibcqcFhpQoQ==
 ```
-`CryptoJS` là một thư viện hỗ trợ rất nhiều các công cụ mã hóa cho javascipt. `AES` là một trong số các thuật toán mã hóa khối phổ biến hiện nay. Mã hóa này vừa có thể mã hóa và vừa có thể giải mã...
+
+`CryptoJS` là một thư viện hỗ trợ rất nhiều các công cụ mã hóa cho javascipt. `AES` là một trong số các thuật toán mã hóa khối phổ biến hiện nay. 
+
+Mã hóa này vừa có thể mã hóa và vừa có thể giải mã...
+
 Thông tin thêm: https://vi.wikipedia.org/wiki/Advanced_Encryption_Standard
+
 Mình sẽ decrypt chuỗi trên với `pass` tìm được ban nãy, sử dụng: https://www.browserling.com/tools/aes-decrypt
 
 ![](./writeupfiles/yjpbNfc.png)
