@@ -528,3 +528,4 @@ Mình sẽ decrypt chuỗi trên với `pass` tìm được ban nãy, sử dụn
 Done :3, flag tìm được: `ispclub{hemmeligheder_afsløres_altid}`
 
 Solved Python: [snyde-solve.py](./writeupfiles/snyde-solve.py)
+
