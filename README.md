@@ -4,6 +4,7 @@
 
 | CTF Events | Writeups | Evaluate |
 | :--- | :--- | :--- |
+| training 2020 | [trainingCTF 2020](./training2020/README.md) | average |
 | miniCTF 2020 | [miniCTF 2020](./mini2020/README.md) | easy |
-| trainingCTF 2020 | [trainingCTF 2020](./training2020/README.md) | average |
-| ISP CTF 2022 | [ISPCTF 2022](./ISPCTF2022/README.md) | hard |
+| training 2022 | [ISPCTF 2022](./training2022/README.md) | hard |
+| miniCTF 2022 | [miniCTF 2020](./mini2022/README.md) | average |
