@@ -2,7 +2,7 @@
 #### Challenge
 Tập hợp để đi đánh boss thôi nàoo!
 
-[circle.svg](https://github.com/Dongkong1908/MiniCTF-2022/blob/main/Basic%20Forensic/circle.svg)
+[circle.svg](./circle.svg)
 
 #### Solution
 
