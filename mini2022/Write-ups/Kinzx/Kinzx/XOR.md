@@ -95,3 +95,21 @@ từng kí tự với vòng for đầu tiên nó sẽ liên quan 8 bit của 1 k
         }
     ```
     + Đến với hàm này có tác dụng ghép 8 bit lại sau khi tách ra để encrypt.
+
+```c++
+#include <iostream>
+using namespace std;
+int main()
+{
+    int cipher[33] = {0xe7, 0x99, 0xdb, 0xf6, 0x98, 0xda, 0xf6, 0xda, 0x99, 0xf6, 0xe4, 0x9d, 0xce, 0x98, 0xca};
+    for (int i = 0; i < 15; i++)
+    {
+        cout << char(cipher[i] ^ 0xa9); //0xa9 là dạng hex của dãy key[]={1,0,0,1,0,1,0,1} mình sẽ đảo ngược chuỗi key ta sẽ đc dạng hex 0xa9
+        
+    }
+}
+//flag=ISPCTF{N0r_1s_s0_M4g1c}
+```
+![img](https://github.com/kienzx203/Write_upCTF/blob/main/image/Screenshot%202022-10-20%20112646.png)
+
+Flag: `ISPCTF{N0r_1s_s0_M4g1c}`
