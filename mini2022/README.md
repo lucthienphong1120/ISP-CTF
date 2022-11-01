@@ -17,10 +17,10 @@
 | [Best Avatar](./Write-ups/Best%20avatar/Best%20Avatar) | Misc | `ISPCTF{ISP_cAptu5e_th3_F1a9}` |
 | [Base64](./Write-ups/Base64/Base64) | Misc | `ISPCTF{H4v3_4_G00D_D4y}` |
 | [New misc](./Write-ups/New%20Misc/New%20Misc) | Misc | `ISPCTF{BILLCIPHER}`|
-| [Baby Kinzx](./Write-ups/) | RE* | `ISPCTF{_bit_bitch_beach}` |
+| [Baby Kinzx](./Write-ups/Kinzx/Kinzx/Baby_Kinzx.md) | RE | `ISPCTF{_bit_bitch_beach}` |
 | [EZ RE](./Write-ups/Kinzx/Kinzx/EZ_RE.md) | RE | `ISPCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}` |
-| [Loop Key](./Write-ups/) | RE* | `ISPCTF{T01_co_kh1en_ban_vu1_12112003}` |
-| [XOR](./Write-ups/) | RE* | `ISPCTF{N0r_1s_s0_M4g1c}` |
+| [Loop Key](./Write-ups/Kinzx/Kinzx/Loop_key.md) | RE | `ISPCTF{T01_co_kh1en_ban_vu1_12112003}` |
+| [XOR](./Write-ups/Kinzx/Kinzx/XOR.md) | RE | `ISPCTF{N0r_1s_s0_M4g1c}` |
 | [Correct File?](./Write-ups/Correct%20File/Correct%20File) | Forensics | `ISPCTF{i_am_following_you}` |
 | [Japanese Food](./Write-ups/) | Forensics* | `ISPCTF{Pe0ple_mAke_1t_complicat3d}` |
 | [Love n Light](./Write-ups/Kinzx/Kinzx/Love_n_Light.md) | Forensics | `ISPCTF{Fr0m_kA1z_w1tH_L0v3}` |
