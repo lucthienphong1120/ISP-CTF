@@ -22,7 +22,7 @@
 | [Loop Key](./Write-ups/Kinzx/Kinzx/Loop_key.md) | RE | `ISPCTF{T01_co_kh1en_ban_vu1_12112003}` |
 | [XOR](./Write-ups/Kinzx/Kinzx/XOR.md) | RE | `ISPCTF{N0r_1s_s0_M4g1c}` |
 | [Correct File?](./Write-ups/Correct%20File/Correct%20File) | Forensics | `ISPCTF{i_am_following_you}` |
-| [Japanese Food](./Write-ups/) | Forensics* | `ISPCTF{Pe0ple_mAke_1t_complicat3d}` |
+| [Japanese Food](./Write-ups/Japanese%20Food/Japanese%20Food) | Forensics | `ISPCTF{Pe0ple_mAke_1t_complicat3d}` |
 | [Love n Light](./Write-ups/Kinzx/Kinzx/Love_n_Light.md) | Forensics | `ISPCTF{Fr0m_kA1z_w1tH_L0v3}` |
 | [Where is Nemo?](./Write-ups/Where%20is%20Nemo/Where%20is%20Nemo) | Forensics | `ISPCTF{y0u_5ave_Nem0_f15h}` |
 | [Are you Wibu?](./Write-ups/Are%20you%20wibu/Are%20you%20Wibu1) | Forensics | `ISPCTF{w1bu_n3v3r_d13_1337}` |
