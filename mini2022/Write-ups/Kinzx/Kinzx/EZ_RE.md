@@ -1,6 +1,4 @@
-
-
-# RE: EZ RE #
+# EZ RE
 #### Challenge 
 ##### Source Code 
 
