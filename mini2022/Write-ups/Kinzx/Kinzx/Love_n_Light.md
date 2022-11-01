@@ -1,4 +1,4 @@
-# Forensic : Love n Light #
+# Forensic : Love n Light
 #### Challegen
 
 <p>Ánh sáng và bóng tối,Bốp đã có thể đối đầu trực diện với Xipan<p>
