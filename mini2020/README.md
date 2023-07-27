@@ -4,7 +4,7 @@
 
 ![miniCTF firstlook](./writeupfiles/start.png)
 
-### Overview
+## Overview
 
  | Title | Category | Points | Flag
  | ------ | ------ | ------ | ------ |
