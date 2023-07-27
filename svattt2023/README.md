@@ -6,11 +6,11 @@
 
 | Title | Category | Flag |
 | :---- | :------- | :--- |
-| [Web01](#web01) | Web | ATTT{3z X2S From V@tv069 With LOv3} |
-| [Web02](#web02) | Web | ATTT{4_51mpl3_r3v_5ql} |
-| [Web01-again](#web01-again) | Web | ATTT{4c3076335f56407476303639} |
-| [For01](#for01) | Programming | ATTT{https://www.youtube.com/watch?v=4qNALNWoGmI} |
-| [Crypto01](#crypto01) | Crypto | ATTT{Meow_meow meow meow_tra_lai_tam_tri_toi_day} |
+| [Web01](#web01) | Web | `ATTT{3z X2S From V@tv069 With LOv3}` |
+| [Web02](#web02) | Web | `ATTT{4_51mpl3_r3v_5ql}` |
+| [Web01-again](#web01-again) | Web | `ATTT{4c3076335f56407476303639}` |
+| [For01](#for01) | Programming | `ATTT{https://www.youtube.com/watch?v=4qNALNWoGmI}` |
+| [Crypto01](#crypto01) | Crypto | `ATTT{Meow_meow meow meow_tra_lai_tam_tri_toi_day}` |
 
 
 ### Web01
